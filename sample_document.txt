@@ -1,0 +1,3 @@
+RAG Demo Document
+
+Retrieval-Augmented Generation combines information retrieval with language model generation. A typical workflow includes document ingestion, text chunking, embedding generation, vector indexing, semantic retrieval, and context-grounded answer generation. FAISS can be used for efficient similarity search over vector embeddings. A good RAG system grounds answers in retrieved source context to reduce unsupported claims.
