@@ -17,7 +17,7 @@ def _get(name, default=""):
 # LLM settings (Streamlit Secrets or .env)
 OPENAI_API_KEY = _get("OPENAI_API_KEY")
 OPENAI_BASE_URL = _get("OPENAI_BASE_URL")
-OPENAI_MODEL = _get("OPENAI_MODEL", "llama-3.3-70b-versatile")
+OPENAI_MODEL = _get("OPENAI_MODEL", "openai/gpt-oss-20b")
 
 # Chunking
 CHUNK_SIZE = int(_get("CHUNK_SIZE", 900))
